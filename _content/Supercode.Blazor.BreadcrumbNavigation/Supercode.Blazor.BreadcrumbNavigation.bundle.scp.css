@@ -1,0 +1,46 @@
+@import '';
+
+/* _content/Supercode.Blazor.BreadcrumbNavigation/BreadcrumbNavigation.razor.rz.scp.css */
+ul[b-bzvwyjf2v0] {
+    padding: .75rem 1rem;
+    list-style: none;
+    margin: 0;
+}
+
+    ul[b-bzvwyjf2v0]  li {
+        display: inline;
+    }
+
+    ul[b-bzvwyjf2v0]  li + li:before {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        color: #6c757d;
+        content: "/\00a0";
+    }
+
+    ul[b-bzvwyjf2v0]  li a {
+    }
+
+        ul[b-bzvwyjf2v0]  li a.active {
+            color: #6c757d;
+            text-decoration: underline;
+        }
+
+            ul[b-bzvwyjf2v0]  li a.active:hover {
+            }
+
+    ul[b-bzvwyjf2v0]  li span button {
+        top: 0px;
+        padding: 0 .5rem;
+        font-size: .875rem;
+        border: none;
+        background: transparent;
+    }
+
+    ul[b-bzvwyjf2v0]  li span span {
+        top: 0px;
+        padding: 0 .5rem;
+        font-size: .875rem;
+        border: none;
+        background: transparent;
+    }
